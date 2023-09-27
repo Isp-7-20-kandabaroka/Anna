@@ -243,7 +243,7 @@ def bt1(call):
 ТАН- это то место, куда хочется возвращаться. Я вернулась в который раз и не собираюсь закрывать эту дверь. Атмосфера, созданная Анной Никольской и всей командой, вдохновляет и вселяет уверенность. А огромный блок обучающих материалов подробно рассказывает, как стать писателем.
 """
     bot.send_message(user_id,otv1,parse_mode='HTML')
-    image_path = r'C:\Users\Кирилл\Desktop\photo_2023-09-24_13-52-49.jpg'
+    image_path = r'photos/photo_2023-09-24_13-52-49.jpg'
     with open(image_path, 'rb') as photo:
         bot.send_photo(call.message.chat.id, photo, reply_markup=markup)
 
@@ -309,7 +309,7 @@ def bt2(call):
     """
 
     bot.send_message(user_id,ano, parse_mode='HTML')
-    image_path = r'C:\Users\Кирилл\Desktop\photo_2023-07-05_19-06-17.jpg'
+    image_path = r'photos/photo_2023-07-05_19-06-17.jpg'
     with open(image_path, 'rb') as photo:
         bot.send_photo(call.message.chat.id, photo, reply_markup=markup)
 
