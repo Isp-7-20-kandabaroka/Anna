@@ -169,7 +169,7 @@ def forward_button_handler2(call):
     markup.add(forward_button_6)
 
     m = 'Держите 200 упражнений для ежедневного креативного письма (более двух миллионов просмотров ВКонтакте) Сохраняйте в избранное и практикуйте!'
-    pdf_path = 'C:/Users/Кирилл/Desktop/200-upraznenii-pisatelei-spontancev.pdf'
+    pdf_path = 'photos/200-upraznenii-pisatelei-spontancev.pdf'
     pdf_file = open(pdf_path, 'rb')
     bot.send_message(user_id, m)
     bot.send_document(user_id, pdf_file,reply_markup=markup)
