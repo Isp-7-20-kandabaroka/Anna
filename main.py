@@ -54,7 +54,7 @@ def forward_button_handler(call):
 
 
     bot.send_message(user_id, forward_message)
-    image_path = r'\Anna\Anna\photos\photo_2023-09-23_14-50-14.jpg'
+    image_path = r'photos/photo_2023-09-23_14-50-14.jpg'
     with open(image_path, 'rb') as photo:
         bot.send_photo(call.message.chat.id, photo, reply_markup=markup)
 
