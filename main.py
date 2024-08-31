@@ -198,7 +198,7 @@ def bt1(call):
     user_id = call.message.chat.id
 
     f2 = types.InlineKeyboardButton("Программа курса", callback_data='PGG')
-    f3 = types.InlineKeyboardButton("Забронировать место", callback_data='forward8')
+    f3 = types.InlineKeyboardButton("Забронировать со скидкой", callback_data='forward8')
     markup = types.InlineKeyboardMarkup()
     markup.row(f2)
     markup.row(f3)
@@ -252,7 +252,7 @@ def bt1(call):
 def bt2(call):
     user_id = call.message.chat.id
     f2 = types.InlineKeyboardButton("Отзывы", callback_data='OTT')
-    f3 = types.InlineKeyboardButton("Забронировать место", callback_data='forward8')
+    f3 = types.InlineKeyboardButton("Забронировать со скидкой", callback_data='forward8')
     markup = types.InlineKeyboardMarkup()
     markup.row(f2)
     markup.row(f3)
