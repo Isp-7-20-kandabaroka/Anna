@@ -180,7 +180,7 @@ def bt(call):
     markup = types.InlineKeyboardMarkup()
     f1 = types.InlineKeyboardButton("Отзывы", callback_data='OTT')
     f2 = types.InlineKeyboardButton("Программа курса", callback_data='PGG')
-    f3 = types.InlineKeyboardButton("Забронировать место", callback_data='forward8')
+    f3 = types.InlineKeyboardButton("Забронировать со скидкой", callback_data='forward8')
     markup.row(f1)
     markup.row(f2,f3)
     welcome_message = (
